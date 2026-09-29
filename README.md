@@ -2,11 +2,12 @@
 
 ### System Administrator | Cloud & DevOps
 
-**Cloud Infrastructure • Linux & Windows Administration • Infrastructure as Code • Automation • Containers**
+**AWS • Linux • Windows Server • Terraform • Ansible • Docker • Kubernetes • CI/CD**
 
-Building reliable, scalable, and automated infrastructure across cloud and enterprise environments.
+I build and automate **reliable, scalable, and production-oriented infrastructure** across cloud and enterprise environments.
 
-[LinkedIn](https://www.linkedin.com/in/mohamed-gamal546) • [GitHub](https://github.com/mohamedgamal546)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Gamal-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/mohamed-gamal546)
+[![GitHub](https://img.shields.io/badge/GitHub-mohamedgamal546-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/mohamedgamal546)
 
 ---
 
@@ -14,185 +15,174 @@ Building reliable, scalable, and automated infrastructure across cloud and enter
 
 I'm a **System Administrator** with a background in **Electronics & Communications Engineering** and professional training in **Systems Administration at ITI – MCIT**.
 
-My work combines **systems administration, cloud infrastructure, automation, virtualization, networking, and containerization**.
+My engineering work spans the full infrastructure lifecycle:
 
-I focus on building infrastructure that is:
+**Design → Provision → Configure → Deploy → Automate → Monitor**
 
-**Reliable → Automated → Scalable → Secure → Observable**
+I work with:
 
-* ☁️ Designing and deploying infrastructure on **AWS**
-* 🏗️ Provisioning infrastructure using **Terraform**
-* ⚙️ Automating configuration and deployments with **Ansible**
-* 🐳 Building and deploying containerized workloads with **Docker**
-* ☸️ Working with **Kubernetes and Helm**
-* 🔄 Implementing CI/CD with **Jenkins and GitHub Actions**
-* 🐧 Administering **Linux systems and services**
-* 🪟 Managing **Windows Server, Active Directory, DNS, DHCP, and Group Policy**
-* 🖥️ Building virtualized environments using **VMware vSphere**
-* 📊 Monitoring infrastructure with **Prometheus and Grafana**
-* 🌐 Troubleshooting **TCP/IP, routing, switching, and enterprise networks**
+* ☁️ **Cloud Infrastructure** — AWS, Azure, Huawei Cloud
+* 🏗️ **Infrastructure as Code** — Terraform
+* ⚙️ **Automation** — Ansible, Bash, Python
+* 🐳 **Containers** — Docker, Kubernetes, Helm
+* 🔄 **CI/CD** — Jenkins, GitHub Actions
+* 🐧 **Systems** — Linux, Windows Server
+* 🖥️ **Virtualization** — VMware vSphere
+* 🌐 **Networking** — TCP/IP, DNS, DHCP, Routing & Switching
+* 📊 **Monitoring** — Prometheus, Grafana
 
 📍 **Cairo, Egypt**
 
 ---
 
-# 🛠️ Technical Stack
-
-### ☁️ Cloud & Infrastructure
-
-![Cloud](https://skillicons.dev/icons?i=aws,azure,terraform)
-
-`AWS` `Azure` `Huawei Cloud` `Terraform`
-
-### 🐧 Systems & Virtualization
-
-![Systems](https://skillicons.dev/icons?i=linux,windows,vmware)
-
-`Linux` `Windows Server` `VMware vSphere` `Apache` `Nginx` `Storage`
-
-### 🐳 Containers & Automation
-
-![Containers](https://skillicons.dev/icons?i=docker,kubernetes,helm,ansible)
-
-`Docker` `Kubernetes` `Helm` `Ansible`
-
-### 🔄 CI/CD & Version Control
-
-![CI/CD](https://skillicons.dev/icons?i=jenkins,githubactions,git,github)
-
-`Jenkins` `GitHub Actions` `Git` `GitHub`
-
-### 📊 Monitoring
-
-![Monitoring](https://skillicons.dev/icons?i=prometheus,grafana)
-
-`Prometheus` `Grafana` `Alerting` `Infrastructure Monitoring`
-
-### 🌐 Networking
-
-`TCP/IP` `Subnetting` `Routing & Switching` `DNS` `DHCP` `Network Troubleshooting`
-
-### 🗄️ Databases
-
-`MySQL` `SQL` `PL/SQL` `Backup & Recovery`
-
-### 💻 Programming & Scripting
-
-![Programming](https://skillicons.dev/icons?i=bash,python,go)
-
-`Bash` `Python` `Go`
-
----
-
-# 🚀 Featured Projects
+# 🚀 Featured Engineering Projects
 
 ## ☁️ Highly Available 3-Tier AWS Infrastructure
 
-### [View Repository →](https://github.com/mohamedgamal546/Highly-Available-3-Tier-AWS-Infrastructure)
+[**View Project →**](https://github.com/mohamedgamal546/Highly-Available-3-Tier-AWS-Infrastructure-)
 
 `AWS` `Terraform` `Ansible` `Docker` `ECR` `EC2` `ALB` `RDS` `SSM` `GitHub Actions`
 
-A production-style, highly available AWS infrastructure project demonstrating Infrastructure as Code, configuration management, containerization, and automated deployment.
+A production-style AWS infrastructure project designed around **high availability, automation, scalability, and secure infrastructure operations**.
 
 ### Architecture
 
-**VPC → Public/Private Subnets → ALB → EC2 Auto Scaling → Docker/ECR → RDS PostgreSQL Multi-AZ**
+```text
+                    Internet
+                       │
+                       ▼
+                  Application
+                  Load Balancer
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+           EC2 / ASG          EC2 / ASG
+           AZ-1               AZ-2
+              │                 │
+              └────────┬────────┘
+                       ▼
+                RDS PostgreSQL
+                   Multi-AZ
+```
 
-### Highlights
+### Engineering Highlights
 
-* Designed a custom multi-AZ **AWS VPC**
 * Provisioned infrastructure using **Terraform**
-* Implemented **public and private subnets**
-* Configured **NAT Gateways** for private workloads
-* Deployed an **Application Load Balancer**
+* Designed a custom **multi-AZ VPC**
+* Implemented public/private subnet architecture
+* Configured **NAT Gateways**
+* Deployed **Application Load Balancer**
 * Implemented **EC2 Auto Scaling**
-* Containerized workloads using **Docker**
-* Managed container images with **Amazon ECR**
-* Deployed and configured instances using **Ansible**
+* Containerized workloads with **Docker**
+* Managed images through **Amazon ECR**
+* Automated configuration with **Ansible**
 * Implemented **RDS PostgreSQL Multi-AZ**
 * Used **AWS Systems Manager Session Manager**
-* Integrated automation with **GitHub Actions**
+* Integrated infrastructure workflows with **GitHub Actions**
 
-**Demonstrates:**
-`High Availability` • `Infrastructure as Code` • `AWS Architecture` • `Automation` • `Containers` • `Configuration Management`
-
----
-
-## 🖥️ VMware vSphere Enterprise Infrastructure
-
-### [View Repository →](https://github.com/mohamedgamal546/VMware-vSphere-Enterprise-Infrastructure)
-
-`VMware vSphere` `ESXi` `vCenter` `Virtualization` `Networking` `Storage`
-
-Designed and documented an enterprise virtualization environment using VMware vSphere.
-
-**Focus:**
-Virtualization • Compute • Networking • Storage • Resource Management • Enterprise Infrastructure
-
----
-
-## 🪟 Enterprise Windows Server Infrastructure
-
-### [View Repository →](https://github.com/mohamedgamal546/Enterprise-Windows-Server-Infrastructure)
-
-`Windows Server` `Active Directory` `DNS` `DHCP` `GPO` `RRAS` `File Services`
-
-Implemented an enterprise Windows Server environment covering identity, networking, and core infrastructure services.
-
-**Highlights**
-
-* Active Directory Domain Services
-* DNS
-* DHCP
-* Group Policy
-* RRAS
-* File Services
-* Centralized infrastructure administration
+**Key concepts:**
+`High Availability` • `Infrastructure as Code` • `AWS Networking` • `Automation` • `Containers` • `Fault Tolerance`
 
 ---
 
 ## 🚗 Edge Autonomous Driving System
 
-`Raspberry Pi` `Computer Vision` `MQTT` `Docker` `Ansible` `GitHub Actions` `Prometheus` `Grafana`
+[**View Project →**](https://github.com/mohamedgamal546/Edge-Autonomous-Driving-System-with-DevOps-Integration)
 
-An edge computing project combining autonomous driving capabilities with modern infrastructure and DevOps practices.
+`Raspberry Pi` `Python` `OpenCV` `MQTT` `Docker` `Ansible` `GitHub Actions` `Prometheus` `Grafana`
 
-**Focus:**
-Edge Computing • IoT • Computer Vision • Containerization • Automation • Monitoring
+An edge computing project combining **computer vision, IoT communication, containerization, automation, and monitoring**.
+
+### Engineering Highlights
+
+* Raspberry Pi-based edge platform
+* Computer vision using **OpenCV**
+* MQTT-based communication
+* Docker-based application deployment
+* Automated configuration using **Ansible**
+* CI/CD using **GitHub Actions**
+* Monitoring with **Prometheus & Grafana**
+
+**Key concepts:**
+`Edge Computing` • `IoT` • `Computer Vision` • `DevOps` • `Observability`
 
 ---
 
-# 🧭 Infrastructure Portfolio
+## 🖥️ VMware vSphere Enterprise Infrastructure
+
+[**View Project →**](https://github.com/mohamedgamal546/VMware-vSphere-Enterprise-Infrastructure)
+
+`VMware vSphere` `ESXi` `vCenter` `Virtualization` `Networking` `Storage`
+
+Enterprise virtualization infrastructure focused on compute, networking, storage, and centralized infrastructure management.
+
+**Key concepts:**
+`Virtualization` • `ESXi` • `vCenter` • `Virtual Networking` • `Storage`
+
+---
+
+## 🪟 Enterprise Windows Server Infrastructure
+
+[**View Project →**](https://github.com/mohamedgamal546/Enterprise-Windows-Server-Infrastructure)
+
+`Windows Server` `Active Directory` `DNS` `DHCP` `GPO` `RRAS` `File Services`
+
+Enterprise Windows infrastructure covering identity management, network services, policy management, and file services.
+
+**Key concepts:**
+`Active Directory` • `DNS` • `DHCP` • `Group Policy` • `RRAS` • `File Services`
+
+---
+
+## 🔄 Java CI/CD Pipeline
+
+[**View Project →**](https://github.com/mohamedgamal546/Java-CI-CD-Pipeline-Project-)
+
+`Java` `Jenkins` `Docker` `Git`
+
+Automated application build and delivery workflow demonstrating practical **CI/CD and containerization**.
+
+---
+
+## 🌦️ Modern Containerized Weather Application
+
+[**View Project →**](https://github.com/mohamedgamal546/Modern-Containerized-Weather-Application)
+
+`Docker` `Containers` `Web Application`
+
+Containerized application demonstrating Docker-based application packaging and deployment.
+
+---
+
+# 🧰 Engineering Toolkit
 
 | Area               | Technologies                              |
 | ------------------ | ----------------------------------------- |
 | ☁️ Cloud           | AWS • Azure • Huawei Cloud                |
 | 🏗️ IaC            | Terraform                                 |
-| ⚙️ Automation      | Ansible                                   |
+| ⚙️ Automation      | Ansible • Bash • Python                   |
 | 🐳 Containers      | Docker • Kubernetes • Helm                |
 | 🔄 CI/CD           | Jenkins • GitHub Actions                  |
 | 🐧 Systems         | Linux • Windows Server                    |
 | 🖥️ Virtualization | VMware vSphere                            |
-| 🌐 Networking      | TCP/IP • Routing • Switching • DNS • DHCP |
+| 🌐 Networking      | TCP/IP • DNS • DHCP • Routing • Switching |
 | 📊 Monitoring      | Prometheus • Grafana                      |
 | 🗄️ Databases      | MySQL • SQL • PL/SQL                      |
-| 💻 Scripting       | Bash • Python • Go                        |
+| 💻 Programming     | Bash • Python • Go                        |
 
 ---
 
-# 🏆 Certifications
+# 🏆 Certifications & Training
 
-### Red Hat
+### Certifications
 
 🎖️ **Red Hat Certified System Administrator — RHCSA**
 
-### Huawei Cloud
+☁️ **Huawei HCCDA – Cloud Native**
 
-☁️ **HCCDA – Cloud Native**
+☁️ **Huawei HCCDA – Tech Essentials**
 
-☁️ **HCCDA – Tech Essentials**
-
-### Cisco Training
+### Networking Training
 
 🌐 **CCNA: Introduction to Networks**
 
@@ -206,10 +196,14 @@ Edge Computing • IoT • Computer Vision • Containerization • Automation �
 
 ### Information Technology Institute — ITI, MCIT
 
-**Systems Administration Track**
+**6-Month Systems Administration Track**
 January 2026 – June 2026
 
-`Linux Administration` • `Windows Server` • `Cloud` • `Networking` • `Virtualization` • `Containers` • `Automation`
+Core areas:
+
+`Linux` • `Windows Server` • `Networking` • `Cloud` • `Virtualization` • `Containers` • `Automation`
+
+---
 
 ### Sinai University
 
@@ -225,11 +219,11 @@ January 2026 – June 2026
 
 # 🎯 Current Focus
 
-Currently deepening my skills in:
+I'm currently expanding my expertise in:
 
-**AWS • Linux • Terraform • Ansible • Docker • Kubernetes • CI/CD • Infrastructure Monitoring**
+**AWS • Cloud Infrastructure • Terraform • Ansible • Docker • Kubernetes • CI/CD • Linux Administration**
 
-I'm particularly interested in building **highly available cloud infrastructure**, automating infrastructure operations, and improving reliability through monitoring and repeatable engineering practices.
+My focus is on designing infrastructure that is **automated, scalable, highly available, and operationally reliable**.
 
 ---
 
@@ -237,7 +231,7 @@ I'm particularly interested in building **highly available cloud infrastructure*
 
 I'm open to opportunities in:
 
-**System Administration • Cloud Engineering • DevOps • Infrastructure Engineering • Platform Engineering**
+**System Administration • Cloud Engineering • DevOps • Infrastructure Engineering**
 
 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-gamal546)
 
