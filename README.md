@@ -233,10 +233,14 @@ I'm open to opportunities in:
 
 **System Administration • Cloud Engineering • DevOps • Infrastructure Engineering**
 
-💼 [LinkedIn](https://www.linkedin.com/in/mohamed-gamal546)
+📧 **Email:** [m.nasser5466@gmail.com](mailto:m.nasser5466@gmail.com)
 
-💻 [GitHub](https://github.com/mohamedgamal546)
+💼 **LinkedIn:** [Mohamed Gamal](https://www.linkedin.com/in/mohamed-gamal546)
+
+💻 **GitHub:** [mohamedgamal546](https://github.com/mohamedgamal546)
 
 ---
 
 ### Build. Automate. Operate. Improve.
+
+
