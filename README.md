@@ -222,6 +222,8 @@ Modern containerized application demonstrating multi-service deployment and Dock
 
 🎖️ **Red Hat Certified System Administrator — RHCSA**
 
+☁️ **AWS Certified Cloud Practitioner (CLF-C02)**
+
 ☁️ **Huawei HCCDA — Cloud Native**
 
 ☁️ **Huawei HCCDA — Tech Essentials**
